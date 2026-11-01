@@ -1,0 +1,10 @@
+# Simulink build cache
+slprj/
+*.slxc
+
+# Large simulation video recordings (regenerate by running models)
+videos/
+
+# MATLAB auto-generated files
+*.asv
+*.m~
