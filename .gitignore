@@ -1,10 +1,18 @@
-# Simulink build cache
-slprj/
-*.slxc
-
-# Large simulation video recordings (regenerate by running models)
-videos/
-
-# MATLAB auto-generated files
+# MATLAB / Simulink
 *.asv
 *.m~
+*.slx.autosave
+*.slx.original
+*.slxc
+*.mexw64
+slprj/
+# CAD / tool logs
+*.log
+*.bak
+# KiCad
+*-backups/
+.history/
+fp-info-cache
+# OS
+.DS_Store
+Thumbs.db
